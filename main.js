@@ -32,10 +32,10 @@ function modelLoaded(){
 function gotPoses(results){
     if(results.length>0){
         console.log(results);
-        console.log("lip x = " + results[0].pose.nose.x - 10);
+        console.log("lip x = " + results[0].pose.nose.x - 30);
         console.log("lip y = " + results[0].pose.nose.y + 10);
 
-        lipX = results[0].pose.nose.x - 10;
+        lipX = results[0].pose.nose.x - 30;
         lipY = results[0].pose.nose.y + 10;
         console.log("lip x = " + lipX);
         console.log("lip y = " + lipY);
